@@ -32,4 +32,4 @@ app.get('/', (req, res) => {
   return res.json(weapons)
 })
 
-app.listen(3042, () => console.log('car API is started with port 3042'))
+app.listen(3042, () => console.log('weapons API is started with port 3042'))
